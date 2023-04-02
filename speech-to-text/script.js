@@ -77,6 +77,8 @@ $('#start-record-btn').on('click', function(e) {
     noteContent += ' ';
   }
   recognition.start();
+	
+	console.log('sample');
 });
 
 
